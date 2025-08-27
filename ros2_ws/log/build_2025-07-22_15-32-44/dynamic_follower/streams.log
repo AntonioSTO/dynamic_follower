@@ -1,0 +1,28 @@
+[0.806s] Invoking command in '/home/antonio/ros2_ws/src/dynamic_follower': PYTHONPATH=/home/antonio/ros2_ws/build/dynamic_follower/prefix_override:/home/antonio/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_follower build --build-base /home/antonio/ros2_ws/build/dynamic_follower/build install --record /home/antonio/ros2_ws/build/dynamic_follower/install.log --single-version-externally-managed install_data
+[1.090s] running egg_info
+[1.110s] writing ../../build/dynamic_follower/dynamic_follower.egg-info/PKG-INFO
+[1.110s] writing dependency_links to ../../build/dynamic_follower/dynamic_follower.egg-info/dependency_links.txt
+[1.110s] writing entry points to ../../build/dynamic_follower/dynamic_follower.egg-info/entry_points.txt
+[1.110s] writing requirements to ../../build/dynamic_follower/dynamic_follower.egg-info/requires.txt
+[1.111s] writing top-level names to ../../build/dynamic_follower/dynamic_follower.egg-info/top_level.txt
+[1.152s] reading manifest file '../../build/dynamic_follower/dynamic_follower.egg-info/SOURCES.txt'
+[1.154s] writing manifest file '../../build/dynamic_follower/dynamic_follower.egg-info/SOURCES.txt'
+[1.154s] running build
+[1.154s] running build_py
+[1.154s] copying dynamic_follower/follower_node.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+[1.154s] copying dynamic_follower/__init__.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+[1.154s] copying dynamic_follower/turtle_goal_listener.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+[1.155s] copying dynamic_follower/goal_publisher.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+[1.155s] running install
+[1.159s] running install_lib
+[1.180s] running install_data
+[1.180s] copying resource/dynamic_follower -> /home/antonio/ros2_ws/install/dynamic_follower/share/ament_index/resource_index/packages
+[1.181s] copying package.xml -> /home/antonio/ros2_ws/install/dynamic_follower/share/dynamic_follower
+[1.181s] copying launch/bringup.launch.py -> /home/antonio/ros2_ws/install/dynamic_follower/share/dynamic_follower/launch
+[1.181s] running install_egg_info
+[1.202s] removing '/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower-0.0.1-py3.10.egg-info' (and everything under it)
+[1.202s] Copying ../../build/dynamic_follower/dynamic_follower.egg-info to /home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower-0.0.1-py3.10.egg-info
+[1.203s] running install_scripts
+[1.369s] Installing follower_node script to /home/antonio/ros2_ws/install/dynamic_follower/lib/dynamic_follower
+[1.369s] writing list of installed files to '/home/antonio/ros2_ws/build/dynamic_follower/install.log'
+[1.396s] Invoked command in '/home/antonio/ros2_ws/src/dynamic_follower' returned '0': PYTHONPATH=/home/antonio/ros2_ws/build/dynamic_follower/prefix_override:/home/antonio/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_follower build --build-base /home/antonio/ros2_ws/build/dynamic_follower/build install --record /home/antonio/ros2_ws/build/dynamic_follower/install.log --single-version-externally-managed install_data

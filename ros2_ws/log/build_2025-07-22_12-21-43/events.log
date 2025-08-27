@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (dynamic_follower) JobQueued: {'identifier': 'dynamic_follower', 'dependencies': OrderedDict()}
+[0.000180] (two_wheeled_robot) JobQueued: {'identifier': 'two_wheeled_robot', 'dependencies': OrderedDict()}
+[0.000199] (dynamic_follower) JobStarted: {'identifier': 'dynamic_follower'}
+[0.048572] (two_wheeled_robot) JobStarted: {'identifier': 'two_wheeled_robot'}
+[0.099420] (-) TimerEvent: {}
+[0.199623] (-) TimerEvent: {}
+[0.298289] (two_wheeled_robot) JobProgress: {'identifier': 'two_wheeled_robot', 'progress': 'cmake'}
+[0.299403] (two_wheeled_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/antonio/ros2_ws/src/two_wheeled_robot', '-DCMAKE_INSTALL_PREFIX=/home/antonio/ros2_ws/install/two_wheeled_robot'], 'cwd': '/home/antonio/ros2_ws/build/two_wheeled_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'antonio'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/antonio'), ('OLDPWD', '/home/antonio/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1954'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2300'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '34955'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antonio/ros2_ws/install:/home/antonio/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antonio'), ('JOURNAL_STREAM', '8:15726'), ('_', '/home/antonio/.local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/antonio/libfreenect2/build/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antonio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/antonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/obi-wan:@/tmp/.ICE-unix/2101,unix/obi-wan:/tmp/.ICE-unix/2101'), ('INVOCATION_ID', '195525221fb142989cce0de01dc7cec0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.S5JQ92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/antonio/ros2_ws/install/dynamic_follower:/home/antonio/ros2_ws/src/install/dynamic_follower:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f1053c14-2ff7-418a-9b53-d74106399c6d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antonio/ros2_ws/build/two_wheeled_robot'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/antonio/ros2_ws/src/install/dynamic_follower:/home/antonio/ros2_ws/install/dynamic_follower:/opt/ros/humble')]), 'shell': False}
+[0.311554] (-) TimerEvent: {}
+[0.412103] (-) TimerEvent: {}
+[0.512488] (-) TimerEvent: {}
+[0.612724] (-) TimerEvent: {}
+[0.713048] (-) TimerEvent: {}
+[0.813667] (-) TimerEvent: {}
+[0.914254] (-) TimerEvent: {}
+[1.014834] (-) TimerEvent: {}
+[1.115425] (-) TimerEvent: {}
+[1.215733] (-) TimerEvent: {}
+[1.316328] (-) TimerEvent: {}
+[1.416941] (-) TimerEvent: {}
+[1.517506] (-) TimerEvent: {}
+[1.553475] (two_wheeled_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.617645] (-) TimerEvent: {}
+[1.718234] (-) TimerEvent: {}
+[1.818800] (-) TimerEvent: {}
+[1.919390] (-) TimerEvent: {}
+[2.020034] (-) TimerEvent: {}
+[2.120593] (-) TimerEvent: {}
+[2.221105] (-) TimerEvent: {}
+[2.244089] (two_wheeled_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.317292] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.321281] (-) TimerEvent: {}
+[2.421849] (-) TimerEvent: {}
+[2.522454] (-) TimerEvent: {}
+[2.611650] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.622498] (-) TimerEvent: {}
+[2.624098] (two_wheeled_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.627921] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.630349] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.646012] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.722708] (-) TimerEvent: {}
+[2.809073] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.816189] (two_wheeled_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.816394] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.816884] (two_wheeled_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.822850] (-) TimerEvent: {}
+[2.886886] (two_wheeled_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.923008] (-) TimerEvent: {}
+[3.023472] (-) TimerEvent: {}
+[3.123775] (-) TimerEvent: {}
+[3.224012] (-) TimerEvent: {}
+[3.324250] (-) TimerEvent: {}
+[3.368885] (two_wheeled_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.424466] (-) TimerEvent: {}
+[3.524717] (-) TimerEvent: {}
+[3.577610] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.624966] (-) TimerEvent: {}
+[3.725402] (-) TimerEvent: {}
+[3.826006] (-) TimerEvent: {}
+[3.871393] (dynamic_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dynamic_follower', 'build', '--build-base', '/home/antonio/ros2_ws/build/dynamic_follower/build', 'install', '--record', '/home/antonio/ros2_ws/build/dynamic_follower/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/antonio/ros2_ws/src/dynamic_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'antonio', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/antonio', 'OLDPWD': '/home/antonio/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '1954', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2300', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1003/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '34955', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/antonio/ros2_ws/install:/home/antonio/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'antonio', 'JOURNAL_STREAM': '8:15726', '_': '/home/antonio/.local/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/antonio/libfreenect2/build/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'antonio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/antonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/obi-wan:@/tmp/.ICE-unix/2101,unix/obi-wan:/tmp/.ICE-unix/2101', 'INVOCATION_ID': '195525221fb142989cce0de01dc7cec0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1003', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1003/.mutter-Xwaylandauth.S5JQ92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1003/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/antonio/ros2_ws/install/dynamic_follower:/home/antonio/ros2_ws/src/install/dynamic_follower:/opt/ros/humble', 'SHELL': '/usr/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f1053c14-2ff7-418a-9b53-d74106399c6d', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/antonio/ros2_ws/build/dynamic_follower', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/antonio/ros2_ws/build/dynamic_follower/prefix_override:/home/antonio/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/antonio/ros2_ws/src/install/dynamic_follower'}, 'shell': False}
+[3.926107] (-) TimerEvent: {}
+[3.940218] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.956683] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.992548] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.026216] (-) TimerEvent: {}
+[4.078351] (two_wheeled_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.126326] (-) TimerEvent: {}
+[4.139337] (dynamic_follower) StdoutLine: {'line': b'running egg_info\n'}
+[4.156012] (two_wheeled_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.158430] (dynamic_follower) StdoutLine: {'line': b'writing ../../build/dynamic_follower/dynamic_follower.egg-info/PKG-INFO\n'}
+[4.161226] (dynamic_follower) StdoutLine: {'line': b'writing dependency_links to ../../build/dynamic_follower/dynamic_follower.egg-info/dependency_links.txt\n'}
+[4.161548] (dynamic_follower) StdoutLine: {'line': b'writing entry points to ../../build/dynamic_follower/dynamic_follower.egg-info/entry_points.txt\n'}
+[4.161771] (dynamic_follower) StdoutLine: {'line': b'writing requirements to ../../build/dynamic_follower/dynamic_follower.egg-info/requires.txt\n'}
+[4.162017] (dynamic_follower) StdoutLine: {'line': b'writing top-level names to ../../build/dynamic_follower/dynamic_follower.egg-info/top_level.txt\n'}
+[4.202665] (dynamic_follower) StdoutLine: {'line': b"reading manifest file '../../build/dynamic_follower/dynamic_follower.egg-info/SOURCES.txt'\n"}
+[4.204227] (dynamic_follower) StdoutLine: {'line': b"writing manifest file '../../build/dynamic_follower/dynamic_follower.egg-info/SOURCES.txt'\n"}
+[4.204357] (dynamic_follower) StdoutLine: {'line': b'running build\n'}
+[4.204426] (dynamic_follower) StdoutLine: {'line': b'running build_py\n'}
+[4.204584] (dynamic_follower) StdoutLine: {'line': b'copying dynamic_follower/__init__.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower\n'}
+[4.205586] (dynamic_follower) StdoutLine: {'line': b'copying dynamic_follower/turtle_goal_listener.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower\n'}
+[4.206022] (dynamic_follower) StdoutLine: {'line': b'copying dynamic_follower/goal_publisher.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower\n'}
+[4.207031] (dynamic_follower) StdoutLine: {'line': b'running install\n'}
+[4.211533] (dynamic_follower) StdoutLine: {'line': b'running install_lib\n'}
+[4.226426] (-) TimerEvent: {}
+[4.232022] (dynamic_follower) StdoutLine: {'line': b'running install_data\n'}
+[4.232242] (dynamic_follower) StdoutLine: {'line': b'copying resource/dynamic_follower -> /home/antonio/ros2_ws/install/dynamic_follower/share/ament_index/resource_index/packages\n'}
+[4.233997] (dynamic_follower) StdoutLine: {'line': b'copying package.xml -> /home/antonio/ros2_ws/install/dynamic_follower/share/dynamic_follower\n'}
+[4.236894] (dynamic_follower) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.269558] (dynamic_follower) StdoutLine: {'line': b"removing '/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[4.270199] (dynamic_follower) StdoutLine: {'line': b'Copying ../../build/dynamic_follower/dynamic_follower.egg-info to /home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower-0.0.1-py3.10.egg-info\n'}
+[4.271302] (dynamic_follower) StdoutLine: {'line': b'running install_scripts\n'}
+[4.326515] (-) TimerEvent: {}
+[4.351783] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.360779] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.426628] (-) TimerEvent: {}
+[4.431532] (dynamic_follower) StdoutLine: {'line': b'Installing goal_publisher script to /home/antonio/ros2_ws/install/dynamic_follower/lib/dynamic_follower\n'}
+[4.431745] (dynamic_follower) StdoutLine: {'line': b'Installing turtle_goal_listener script to /home/antonio/ros2_ws/install/dynamic_follower/lib/dynamic_follower\n'}
+[4.432007] (dynamic_follower) StdoutLine: {'line': b"writing list of installed files to '/home/antonio/ros2_ws/build/dynamic_follower/install.log'\n"}
+[4.453311] (dynamic_follower) CommandEnded: {'returncode': 0}
+[4.527212] (-) TimerEvent: {}
+[4.535029] (dynamic_follower) JobEnded: {'identifier': 'dynamic_follower', 'rc': 0}
+[4.627406] (-) TimerEvent: {}
+[4.727896] (-) TimerEvent: {}
+[4.809999] (two_wheeled_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.828110] (-) TimerEvent: {}
+[4.873559] (two_wheeled_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.917005] (two_wheeled_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.928261] (-) TimerEvent: {}
+[4.973806] (two_wheeled_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.028412] (-) TimerEvent: {}
+[5.128933] (-) TimerEvent: {}
+[5.201209] (two_wheeled_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.201555] (two_wheeled_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.229101] (-) TimerEvent: {}
+[5.329436] (-) TimerEvent: {}
+[5.368556] (two_wheeled_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.370237] (two_wheeled_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.429577] (-) TimerEvent: {}
+[5.530163] (-) TimerEvent: {}
+[5.630719] (-) TimerEvent: {}
+[5.731238] (-) TimerEvent: {}
+[5.809539] (two_wheeled_robot) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[5.831441] (-) TimerEvent: {}
+[5.842926] (two_wheeled_robot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.931704] (-) TimerEvent: {}
+[5.972439] (two_wheeled_robot) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[6.031875] (-) TimerEvent: {}
+[6.087721] (two_wheeled_robot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.132054] (-) TimerEvent: {}
+[6.203231] (two_wheeled_robot) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[6.232247] (-) TimerEvent: {}
+[6.332634] (-) TimerEvent: {}
+[6.432895] (-) TimerEvent: {}
+[6.470121] (two_wheeled_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.533026] (-) TimerEvent: {}
+[6.633355] (-) TimerEvent: {}
+[6.642721] (two_wheeled_robot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.733470] (-) TimerEvent: {}
+[6.833716] (-) TimerEvent: {}
+[6.933961] (-) TimerEvent: {}
+[7.034204] (-) TimerEvent: {}
+[7.134453] (-) TimerEvent: {}
+[7.234694] (-) TimerEvent: {}
+[7.334939] (-) TimerEvent: {}
+[7.347525] (two_wheeled_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.427385] (two_wheeled_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.435097] (-) TimerEvent: {}
+[7.483286] (two_wheeled_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.535205] (-) TimerEvent: {}
+[7.635457] (-) TimerEvent: {}
+[7.735704] (-) TimerEvent: {}
+[7.835947] (-) TimerEvent: {}
+[7.845022] (two_wheeled_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.846655] (two_wheeled_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.851996] (two_wheeled_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[7.854446] (two_wheeled_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/antonio/ros2_ws/build/two_wheeled_robot\n'}
+[7.862974] (two_wheeled_robot) CommandEnded: {'returncode': 0}
+[7.863548] (two_wheeled_robot) JobProgress: {'identifier': 'two_wheeled_robot', 'progress': 'build'}
+[7.864741] (two_wheeled_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/antonio/ros2_ws/build/two_wheeled_robot', '--', '-j6', '-l6'], 'cwd': '/home/antonio/ros2_ws/build/two_wheeled_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'antonio'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/antonio'), ('OLDPWD', '/home/antonio/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1954'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2300'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '34955'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antonio/ros2_ws/install:/home/antonio/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antonio'), ('JOURNAL_STREAM', '8:15726'), ('_', '/home/antonio/.local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/antonio/libfreenect2/build/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antonio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/antonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/obi-wan:@/tmp/.ICE-unix/2101,unix/obi-wan:/tmp/.ICE-unix/2101'), ('INVOCATION_ID', '195525221fb142989cce0de01dc7cec0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.S5JQ92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/antonio/ros2_ws/install/dynamic_follower:/home/antonio/ros2_ws/src/install/dynamic_follower:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f1053c14-2ff7-418a-9b53-d74106399c6d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antonio/ros2_ws/build/two_wheeled_robot'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/antonio/ros2_ws/src/install/dynamic_follower:/home/antonio/ros2_ws/install/dynamic_follower:/opt/ros/humble')]), 'shell': False}
+[7.916168] (two_wheeled_robot) StdoutLine: {'line': b'Built target ament_cmake_python_copy_two_wheeled_robot\n'}
+[7.936060] (-) TimerEvent: {}
+[8.036294] (-) TimerEvent: {}
+[8.135160] (two_wheeled_robot) StdoutLine: {'line': b'running egg_info\n'}
+[8.136390] (-) TimerEvent: {}
+[8.155465] (two_wheeled_robot) StdoutLine: {'line': b'creating two_wheeled_robot.egg-info\n'}
+[8.155711] (two_wheeled_robot) StdoutLine: {'line': b'writing two_wheeled_robot.egg-info/PKG-INFO\n'}
+[8.155917] (two_wheeled_robot) StdoutLine: {'line': b'writing dependency_links to two_wheeled_robot.egg-info/dependency_links.txt\n'}
+[8.156143] (two_wheeled_robot) StdoutLine: {'line': b'writing top-level names to two_wheeled_robot.egg-info/top_level.txt\n'}
+[8.156296] (two_wheeled_robot) StdoutLine: {'line': b"writing manifest file 'two_wheeled_robot.egg-info/SOURCES.txt'\n"}
+[8.213955] (two_wheeled_robot) StdoutLine: {'line': b"reading manifest file 'two_wheeled_robot.egg-info/SOURCES.txt'\n"}
+[8.214755] (two_wheeled_robot) StdoutLine: {'line': b"writing manifest file 'two_wheeled_robot.egg-info/SOURCES.txt'\n"}
+[8.236527] (-) TimerEvent: {}
+[8.237452] (two_wheeled_robot) StdoutLine: {'line': b'Built target ament_cmake_python_build_two_wheeled_robot_egg\n'}
+[8.247114] (two_wheeled_robot) CommandEnded: {'returncode': 0}
+[8.247938] (two_wheeled_robot) JobProgress: {'identifier': 'two_wheeled_robot', 'progress': 'install'}
+[8.255758] (two_wheeled_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/antonio/ros2_ws/build/two_wheeled_robot'], 'cwd': '/home/antonio/ros2_ws/build/two_wheeled_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'antonio'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/antonio'), ('OLDPWD', '/home/antonio/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1954'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2300'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1003/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '34955'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/antonio/ros2_ws/install:/home/antonio/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'antonio'), ('JOURNAL_STREAM', '8:15726'), ('_', '/home/antonio/.local/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/antonio/libfreenect2/build/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'antonio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/antonio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/obi-wan:@/tmp/.ICE-unix/2101,unix/obi-wan:/tmp/.ICE-unix/2101'), ('INVOCATION_ID', '195525221fb142989cce0de01dc7cec0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1003'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1003/.mutter-Xwaylandauth.S5JQ92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1003/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/antonio/ros2_ws/install/dynamic_follower:/home/antonio/ros2_ws/src/install/dynamic_follower:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f1053c14-2ff7-418a-9b53-d74106399c6d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/antonio/ros2_ws/build/two_wheeled_robot'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/antonio/ros2_ws/src/install/dynamic_follower:/home/antonio/ros2_ws/install/dynamic_follower:/opt/ros/humble')]), 'shell': False}
+[8.262148] (two_wheeled_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.262327] (two_wheeled_robot) StdoutLine: {'line': b'-- Installing: /home/antonio/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/config\n'}
+[8.262425] (two_wheeled_robot) StdoutLine: {'line': b'-- Installing: /home/antonio/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/config/ekf_urdf.yaml\n'}
+[8.263115] (two_wheeled_robot) StdoutLine: {'line': b'-- Installing: /home/antonio/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/config/ekf.yaml\n'}
+[8.263278] (two_wheeled_robot) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:46 (file):\n'}
+[8.263371] (two_wheeled_robot) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[8.263434] (two_wheeled_robot) StderrLine: {'line': b'  "/home/antonio/ros2_ws/src/two_wheeled_robot/include": No such file or\n'}
+[8.263519] (two_wheeled_robot) StderrLine: {'line': b'  directory.\n'}
+[8.263572] (two_wheeled_robot) StderrLine: {'line': b'\n'}
+[8.263622] (two_wheeled_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[8.264974] (two_wheeled_robot) CommandEnded: {'returncode': 1}
+[8.268767] (two_wheeled_robot) JobEnded: {'identifier': 'two_wheeled_robot', 'rc': 1}
+[8.280018] (-) EventReactorShutdown: {}

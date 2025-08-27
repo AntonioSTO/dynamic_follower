@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dynamic_follower
+Version: 0.0.1
+Summary: Nó para seguir alvo dinâmico com Nav2
+Maintainer: Seu Nome
+Maintainer-email: seu@email.com
+License: MIT
+Requires-Dist: setuptools

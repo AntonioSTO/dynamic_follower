@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/dynamic_follower/dynamic_follower.egg-info/PKG-INFO
+writing dependency_links to ../../build/dynamic_follower/dynamic_follower.egg-info/dependency_links.txt
+writing entry points to ../../build/dynamic_follower/dynamic_follower.egg-info/entry_points.txt
+writing requirements to ../../build/dynamic_follower/dynamic_follower.egg-info/requires.txt
+writing top-level names to ../../build/dynamic_follower/dynamic_follower.egg-info/top_level.txt
+reading manifest file '../../build/dynamic_follower/dynamic_follower.egg-info/SOURCES.txt'
+writing manifest file '../../build/dynamic_follower/dynamic_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dynamic_follower/follower_node.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+copying dynamic_follower/__init__.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+copying dynamic_follower/turtle_goal_listener.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+copying dynamic_follower/goal_publisher.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+running install
+running install_lib
+copying /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower/follower_node.py -> /home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower
+byte-compiling /home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower/follower_node.py to follower_node.cpython-310.pyc
+running install_data
+copying resource/dynamic_follower -> /home/antonio/ros2_ws/install/dynamic_follower/share/ament_index/resource_index/packages
+copying package.xml -> /home/antonio/ros2_ws/install/dynamic_follower/share/dynamic_follower
+running install_egg_info
+removing '/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/dynamic_follower/dynamic_follower.egg-info to /home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower-0.0.1-py3.10.egg-info
+running install_scripts
+Installing follower_node script to /home/antonio/ros2_ws/install/dynamic_follower/lib/dynamic_follower
+writing list of installed files to '/home/antonio/ros2_ws/build/dynamic_follower/install.log'

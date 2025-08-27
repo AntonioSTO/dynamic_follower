@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-421932b8b0d6f458e120.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "two_wheeled_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_two_wheeled_robot_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_two_wheeled_robot_egg-f1bfa37a4540a50904bd.json",
+					"name" : "ament_cmake_python_build_two_wheeled_robot_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_two_wheeled_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_two_wheeled_robot-2f9d01fa42cb59b65e32.json",
+					"name" : "ament_cmake_python_copy_two_wheeled_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "two_wheeled_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-two_wheeled_robot_uninstall-af2a4a99a1eb17464ddf.json",
+					"name" : "two_wheeled_robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bda612d647ee5f207f81.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/antonio/ros2_ws/build/two_wheeled_robot",
+		"source" : "/home/antonio/ros2_ws/src/two_wheeled_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

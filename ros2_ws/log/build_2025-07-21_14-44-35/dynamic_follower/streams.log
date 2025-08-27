@@ -1,0 +1,31 @@
+[0.786s] Invoking command in '/home/antonio/ros2_ws/src/dynamic_follower': PYTHONPATH=/home/antonio/ros2_ws/build/dynamic_follower/prefix_override:/home/antonio/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_follower build --build-base /home/antonio/ros2_ws/build/dynamic_follower/build install --record /home/antonio/ros2_ws/build/dynamic_follower/install.log --single-version-externally-managed install_data
+[0.944s] /home/antonio/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.944s]   warnings.warn(msg)
+[1.065s] running egg_info
+[1.085s] writing ../../build/dynamic_follower/dynamic_follower.egg-info/PKG-INFO
+[1.086s] writing dependency_links to ../../build/dynamic_follower/dynamic_follower.egg-info/dependency_links.txt
+[1.086s] writing entry points to ../../build/dynamic_follower/dynamic_follower.egg-info/entry_points.txt
+[1.086s] writing requirements to ../../build/dynamic_follower/dynamic_follower.egg-info/requires.txt
+[1.086s] writing top-level names to ../../build/dynamic_follower/dynamic_follower.egg-info/top_level.txt
+[1.128s] reading manifest file '../../build/dynamic_follower/dynamic_follower.egg-info/SOURCES.txt'
+[1.129s] writing manifest file '../../build/dynamic_follower/dynamic_follower.egg-info/SOURCES.txt'
+[1.129s] running build
+[1.129s] running build_py
+[1.129s] copying dynamic_follower/__init__.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+[1.129s] copying dynamic_follower/turtle_goal_listener.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+[1.130s] copying dynamic_follower/goal_publisher.py -> /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower
+[1.130s] running install
+[1.134s] running install_lib
+[1.155s] copying /home/antonio/ros2_ws/build/dynamic_follower/build/lib/dynamic_follower/turtle_goal_listener.py -> /home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower
+[1.155s] byte-compiling /home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower/turtle_goal_listener.py to turtle_goal_listener.cpython-310.pyc
+[1.156s] running install_data
+[1.156s] copying resource/dynamic_follower -> /home/antonio/ros2_ws/install/dynamic_follower/share/ament_index/resource_index/packages
+[1.157s] copying package.xml -> /home/antonio/ros2_ws/install/dynamic_follower/share/dynamic_follower
+[1.157s] running install_egg_info
+[1.178s] removing '/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower-0.0.1-py3.10.egg-info' (and everything under it)
+[1.178s] Copying ../../build/dynamic_follower/dynamic_follower.egg-info to /home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages/dynamic_follower-0.0.1-py3.10.egg-info
+[1.179s] running install_scripts
+[1.342s] Installing goal_publisher script to /home/antonio/ros2_ws/install/dynamic_follower/lib/dynamic_follower
+[1.343s] Installing turlte_goal_listener script to /home/antonio/ros2_ws/install/dynamic_follower/lib/dynamic_follower
+[1.343s] writing list of installed files to '/home/antonio/ros2_ws/build/dynamic_follower/install.log'
+[1.367s] Invoked command in '/home/antonio/ros2_ws/src/dynamic_follower' returned '0': PYTHONPATH=/home/antonio/ros2_ws/build/dynamic_follower/prefix_override:/home/antonio/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonio/ros2_ws/install/dynamic_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dynamic_follower build --build-base /home/antonio/ros2_ws/build/dynamic_follower/build install --record /home/antonio/ros2_ws/build/dynamic_follower/install.log --single-version-externally-managed install_data
