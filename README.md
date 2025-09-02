@@ -1,4 +1,4 @@
-# Dynamic Follower – Controle de Navegação com ROS 2 e Simulação
+# Dynamic Follower – Simulação de gestos dinâmicos e interação com ROS2
 
 Este projeto implementa um sistema de navegação para robôs baseado em ROS 2, permitindo que um robô siga pontos dinâmicos (ex.: uma pessoa em movimento) em um ambiente simulado.  
 A arquitetura integra **simulação com Pygame**, **ROS 2 Navigation2**, **Behavior Trees personalizadas** e **publicação dinâmica de objetivos**.
@@ -11,37 +11,36 @@ A arquitetura integra **simulação com Pygame**, **ROS 2 Navigation2**, **Behav
 
 dynamic\_follower/
 ├── README.md                   
-├── ros2\_ws/                   
+├── ros2_ws/                   
 │   └── src/
-│       └── dynamic\_follower/
-│           └── dynamic\_follower/
-│               ├── follower\_node.py   
-│               ├── **init**.py
-│               └── .vscode/
+│       └── dynamic_follower/
+│           └── dynamic_follower/
+│               ├── follower_node.py   
+│               ├── __init__.py
 ├── navigation2/               
 │   ├── Dockerfile
 │   ├── nav2-rviz2-container.sh
 │   ├── README.md
-│   ├── behavior\_trees/         
-│   │   └── follow\_dynamic\_point.xml
+│   ├── behavior_trees/         
+│   │   └── follow_dynamic_point.xml
 │   ├── maps/                   
-│   │   ├── labvisio\_corredor\_sync.pgm
-│   │   ├── labvisio\_corredor\_sync.yaml
-│   │   ├── map\_cam\_odom\_exp\_170601.pgm
-│   │   └── map\_cam\_odom\_exp\_170601.yaml
-│   ├── nav2/params/nav2\_params.yaml    
-│   ├── robot\_localization/params/      
+│   │   ├── labvisio_corredor_sync.pgm
+│   │   ├── labvisio_corredor_sync.yaml
+│   │   ├── map_cam_odom_exp_170601.pgm
+│   │   └── map_cam_odom_exp_170601.yaml
+│   ├── nav2/params/nav2_params.yaml    
+│   ├── robot_localization/params/      
 │   │   ├── ekf.yaml
-│   │   ├── ekf\_fuse.yaml
+│   │   ├── ekf_fuse.yaml
 │   │   └── ukf.yaml
-│   └── rviz\_config/             
+│   └── rviz_config/             
 │       ├── fuse.rviz
 │       ├── map.rviz
-│       └── map\_odometry.rviz
-└── position\_sender/             
+│       └── map_odometry.rviz
+└── position_sender/             
 ├── app.py                   
-├── is\_to\_ros.py             
-├── ros\_pb2.py               
+├── is_to_ros.py             
+├── ros_pb2.py               
 
 ````
 
@@ -71,6 +70,7 @@ O sistema é composto por três módulos principais:
 ### Python:
 - **pygame**
 - **protobuf**
+- **is_wire**
 
 ### ROS 2:
 - Navigation2 (`nav2_bringup`)
@@ -87,7 +87,7 @@ O sistema é composto por três módulos principais:
 ### 1. Clone este repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/dynamic_follower.git
+git clone https://github.com/AntonioSTO/dynamic_follower.git
 cd dynamic_follower
 ````
 
@@ -120,7 +120,7 @@ ros2 launch nav2_bringup bringup_launch.py use_sim_time:=true
 ### **Passo 2 – Iniciar o nó seguidor**
 
 ```bash
-source ros2_ws/install/setup.bash
+source install/setup.bash
 ros2 run dynamic_follower follower_node
 ```
 
@@ -160,9 +160,3 @@ python3 position_sender/app.py
 * [ROS 2 Documentation](https://docs.ros.org/en/)
 * [Navigation2](https://navigation.ros.org/)
 * [is-ros2-gateway](https://github.com/labvisio/is-ros2-gateway)
-
-```
-
-pygame
-protobuf
-is_wire
