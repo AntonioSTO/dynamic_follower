@@ -10,38 +10,38 @@ A arquitetura integra **simulação com Pygame**, **ROS 2 Navigation2**, **Behav
 ```
 
 dynamic\_follower/
-├── README.md                   # Documentação principal
-├── ros2\_ws/                    # Workspace ROS 2
+├── README.md                   
+├── ros2\_ws/                   
 │   └── src/
 │       └── dynamic\_follower/
 │           └── dynamic\_follower/
-│               ├── follower\_node.py    # Nó ROS 2 que publica objetivos dinâmicos
+│               ├── follower\_node.py   
 │               ├── **init**.py
 │               └── .vscode/
-├── navigation2/                # Configurações para Navigation2
+├── navigation2/               
 │   ├── Dockerfile
 │   ├── nav2-rviz2-container.sh
 │   ├── README.md
-│   ├── behavior\_trees/         # Behavior Tree customizada
+│   ├── behavior\_trees/         
 │   │   └── follow\_dynamic\_point.xml
-│   ├── maps/                   # Mapas utilizados pelo Navigation2
+│   ├── maps/                   
 │   │   ├── labvisio\_corredor\_sync.pgm
 │   │   ├── labvisio\_corredor\_sync.yaml
 │   │   ├── map\_cam\_odom\_exp\_170601.pgm
 │   │   └── map\_cam\_odom\_exp\_170601.yaml
-│   ├── nav2/params/nav2\_params.yaml    # Configuração do Navigation2
-│   ├── robot\_localization/params/      # Configuração de filtros (EKF/UKF)
+│   ├── nav2/params/nav2\_params.yaml    
+│   ├── robot\_localization/params/      
 │   │   ├── ekf.yaml
 │   │   ├── ekf\_fuse.yaml
 │   │   └── ukf.yaml
-│   └── rviz\_config/             # Arquivos RViz para visualização
+│   └── rviz\_config/             
 │       ├── fuse.rviz
 │       ├── map.rviz
 │       └── map\_odometry.rviz
-└── position\_sender/             # Simulação e gateway para envio de dados
-├── app.py                   # Interface Pygame para simular movimento humano
-├── is\_to\_ros.py             # Conversão de dados da simulação para ROS
-├── ros\_pb2.py               # Arquivo gerado para serialização
+└── position\_sender/             
+├── app.py                   
+├── is\_to\_ros.py             
+├── ros\_pb2.py               
 
 ````
 
@@ -161,11 +161,6 @@ python3 position_sender/app.py
 * [Navigation2](https://navigation.ros.org/)
 * [is-ros2-gateway](https://github.com/labvisio/is-ros2-gateway)
 
-```
-
----
-
-### ✅ **requirements.txt**
 ```
 
 pygame
