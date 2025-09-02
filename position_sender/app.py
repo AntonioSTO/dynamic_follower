@@ -1,6 +1,6 @@
 import pygame
 import sys
-from is_to_ros2 import SkeletonPosition
+from is_to_ros import SkeletonPosition
 
 # Inicializa o Pygame e o canal
 pygame.init()
@@ -49,8 +49,9 @@ def meters_to_pixels(x_m, y_m):
 
 # Imprime posição inicial
 print(f"Posição atual: x={pos_x_m:.2f} m, y={pos_y_m:.2f} m")
-position.send_to(msg=f"{str(pos_x_m)} {str(pos_y_m)}")
+position.send_to(msg= [pos_x_m, pos_y_m, 0])
 
+gesture = 0
 # Loop principal
 while True:
     for event in pygame.event.get():
@@ -61,7 +62,7 @@ while True:
     # Captura teclas pressionadas
     keys = pygame.key.get_pressed()
     moved = False
-
+    
     if keys[pygame.K_w]:  # Para cima
         pos_y_m += meters_per_step
         moved = True
@@ -75,10 +76,20 @@ while True:
         pos_x_m += meters_per_step
         moved = True
 
-    if moved:
-        print(f"Posição atual: x={pos_x_m:.2f} m, y={pos_y_m:.2f} m")
-        pygame.time.wait(150)  # Evita movimento muito rápido
-        position.send_to(msg=f"{str(pos_x_m)} {str(pos_y_m)}")
+    # Gestos a serem identificados
+    # P = Stop; V = Come to me; F = Follow me
+    if keys[pygame.K_p]: 
+        gesture = 1
+    if keys[pygame.K_v]:  
+        gesture = 2
+    if keys[pygame.K_f]:  
+        gesture = 3
+    
+    if moved or gesture != 0:
+        pygame.time.wait(150)  
+        position.send_to(msg=[pos_x_m, pos_y_m, gesture])
+        if gesture == 1 or gesture == 2:
+            gesture = 0
 
     # Preenche a tela de branco
     screen.fill(WHITE)
